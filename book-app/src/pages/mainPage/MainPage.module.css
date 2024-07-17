@@ -1,0 +1,46 @@
+h2 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 42px;
+
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 76%; /* Изменить ширину границы */
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.mainPage {
+    padding: 20px;
+    max-width: 940px;
+    margin: auto;
+    text-align: center;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 53px;
+    line-height: 39px;
+}
+
+.inputGroup label {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
